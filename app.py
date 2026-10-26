@@ -15,7 +15,7 @@ from flask import (
 app = Flask(__name__)
 
 SECRET_KEY = os.getenv("TUSSBROS")
-ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD")
+ADMIN_PASSWORD = os.getenv("99acbda00514ed12727a63f90f469065")
 if not SECRET_KEY:
     raise RuntimeError("Missing SECRET_KEY environment variable")
 if not ADMIN_PASSWORD:
